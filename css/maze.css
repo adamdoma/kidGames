@@ -1,0 +1,60 @@
+body {
+    background-color: aqua;
+    text-align: center;
+}
+
+.main {
+    /* height: 100%; */
+    /* width: 100%; */
+    display: inline-block;
+    background-color: azure;
+    line-height: 0;
+    text-align: center;
+    margin-top: 10px;
+    border: 2px red solid;
+}
+
+.box {
+    text-align: center;
+    height: 40px;
+    width:40px;
+    background-color: chartreuse;
+    display: inline-block;
+    border: 2px white solid;
+    overflow: hidden;
+}
+
+.mouseOver {
+    background-color: brown;
+}
+
+.secondPass{
+    background-color: blue;
+}
+
+.final{
+    background-color: white;
+}
+
+.bottomLine{
+    border-bottom:2px black solid ;
+}
+
+.rightLine{
+    border-right: 2px black solid;
+}
+
+.user{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+}
+
+.startPoint{
+    background-color: blue;
+}
+
+.endPoint{
+    background-color: crimson;
+}

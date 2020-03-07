@@ -1,0 +1,47 @@
+
+.gameBoard{
+    text-align: center;
+    border: 2px solid red;
+    width: 98%;
+    height: 690px;
+    background-color: lightgreen;
+    overflow: auto;
+}
+
+.setupBox{
+    position: relative;
+    border: 2px solid red;
+    margin: auto;
+}
+
+.audio{
+    text-align: center;
+    top: 20px;
+    width: 90%;
+}
+
+.numbers{
+    top: 40px;
+    width: 90%;
+    height: 400px;
+}
+
+.numBox{
+    width: 80px;
+    height: 80px;
+    background-color: yellow;
+    display: inline-block;
+    margin: 8px;
+    font-size: 65px;
+    cursor: pointer;
+    border-radius: 50%;
+    text-shadow: aqua 2px 2px 2px;
+}
+
+.wrong{
+    height: 80px;
+    width: 80px;
+    box-shadow: 1px 1px 2px;
+    background-size: cover;
+    background-image: url("../imgs/wrongImg.jpg");
+}

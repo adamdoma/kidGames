@@ -1,0 +1,93 @@
+body{
+margin: auto;
+text-align: center;
+}
+#myCanvas{
+    display:block;   
+    position: relative;
+    left: 27.1%;
+    width: 700px;
+    height: 200px;
+}
+
+#ans{
+    display:block;
+    width: 700px;
+    /* top: 205px; */
+    left: 27.1%;
+    position: relative;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.ansBox{
+    height: 100px;
+    width: 100px;
+    background-color: tomato;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-family: "Smartie CAPS";
+    font-size: 100px;
+    border-radius: 30px;
+    box-shadow:3px 3px 6px ;
+    background-image: linear-gradient(to left,#e7b2a5,#f1935c);
+
+}
+
+.ansBox:hover{
+    cursor: pointer;
+}
+
+.wrong{
+    height: 100px;
+    width: 100px;
+    box-shadow: 1px 1px 2px;
+    background-size: cover;
+    background-image: url("../imgs/wrongImg.jpg");
+}
+
+.qDiv{
+    position: relative;
+    border-radius: 90px;
+    background-color:red;
+    background-image: linear-gradient(to right, #65587f , #f18867);
+    font-family: "Smartie CAPS";
+    font-size: 100px;
+}
+
+#progress-container{
+    border : 6px sold black;
+    background-color: lightblue;
+    position: relative;
+    width: 700px;
+    margin-top: 15px;
+    left: 27.1%;
+    position: relative;
+    border-radius: 30px;
+}
+
+#progress-color{
+    width: 0;
+    background-color: lawngreen;
+    border-radius: 30px;
+    font-family: "Smartie CAPS";
+    font-size: 40px;
+}
+
+.cloudImg{
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    border-radius: 20%;
+}
+
+#cloud1{
+    left: 30px;
+    top: 100px;
+}
+
+#cloud2{
+    right: 100px;
+    top:10px;
+}

@@ -1,0 +1,26 @@
+
+.container {
+    text-align: center;
+    border: red 1px solid;
+}
+
+.gameBord {
+    display: inline-block;
+    width: 1000px;
+    height: 1000px;
+    background-color: burlywood;
+    line-height: 0px;
+}
+
+.box{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: royalblue;
+    border: 1px black solid;
+    margin: 0;
+}
+
+.visited{
+    background-color: black;
+}
